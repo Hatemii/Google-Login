@@ -13,6 +13,6 @@ public class Controller {
 
     @GetMapping("/restricted")
     public String tryThis() {
-        return "This file cannot open you must loggin first";
+        return "Hi, You are logged in";
     }
 }
